@@ -4,7 +4,6 @@ gem "google-cloud-pubsub"
 gem "rake"
 
 group :test,:development do
-  gem "aruba"
+  gem 'aruba', '~> 0.14.2'
   gem "rspec"
 end
-gem 'aruba', '~> 0.14.2'
